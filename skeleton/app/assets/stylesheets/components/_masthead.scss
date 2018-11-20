@@ -29,6 +29,14 @@
 	display: flex;
 }
 
+.language-nav-links li {
+	margin-left: 10px;
+
+}
+.language-nav-links:last-child {
+	margin-right: 10px;
+}
+
 .logo {
 	max-width: 400px;
 	margin-top: 10px;
@@ -36,6 +44,7 @@
 
 .masthead-links {
 	display: flex;
+	align-items: center;
 	font-family: $sans-serif;
 	font-size: 11px;
 	margin-top: 10px;
@@ -47,6 +56,11 @@
 	border-right: 1px solid $light-gray;
 }
 
+.masthead-links li:last-child {
+	margin-left: 10px;
+	border-right: none;
+}
+
 .masthead-links button {
 	background: none;
 	padding: 0px;
@@ -56,11 +70,11 @@
 }
 
 .masthead-links button:hover {
-	background-color: $lightest-gray;
+	background-color: $light-gray;
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
 }
